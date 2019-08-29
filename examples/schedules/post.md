@@ -1,7 +1,10 @@
-# Create User's Account 123
+# Create Schedule
 
-Create an Account for the authenticated User if an Account for that User does
-not already exist. Each User can only have one Account.
+ယခု Api Endpoint မှာ BP MMRate System မှ DigitX Chatbot Platform သို့ ခေါ်ရန် ဖြစ်ပါသည်။
+
+BP MMRate CMS မှ Chatbot Users များသို့ Updated စျေးနှုန်းများ
+
+Api Call တစ်ခုတွင် Exchange Rate, Oil Price, Gold Price အပြည့်အစုံ ပါဝင်ရမည် ဖြစ်ပါသည်။  currency_name, gold_market, oil_shop, oil_type စသည့် String Value များမှာ ကြိုတင် သဘောတူညီထားသော String များသာ ဖြစ်ရပါမည်။
 
 **URL** : `/api/accounts/`
 
@@ -71,5 +74,5 @@ Provide name of Account to be created.
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTc2MDIwMzNdfQ==
+eyJoaXN0b3J5IjpbMTUzMjU4ODM0Nl19
 -->
