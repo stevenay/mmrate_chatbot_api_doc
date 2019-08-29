@@ -15,7 +15,7 @@ Open endpoints require no Authentication.
 
 BP MMRate CMS မှ Exchange Rate, Oil Price, Gold Price စသည့် up-to-date price များကို Chatbot users များသို့ ပေးပို့ရန်အတွက် DigitX Platform သို့ Api ခေါ်၍ Schedule လုပ်ရန် Api ဖြစ်ပါသည်။
 
-* [Create New Schedule](schedules/post.md) : `POST /api/schedules/`
+* [Create New Schedule](examples/schedules/post.md) : `POST /api/schedules/`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwMDU3MTY4M119
+eyJoaXN0b3J5IjpbMjQyMjcyMTY3LDE3MDA1NzE2ODNdfQ==
 -->
