@@ -2,18 +2,16 @@
 
 ယခု Api သည် MMRate CMS နှင့် DigitX Chatbot Platform တိုကြား Integrate ပြုလုပ်ရန် ရည်ရွယ်ထားခြင်း ဖြစ်ပါသည်။
 
-## Endpoints
+## Open Endpoints
 
 Open endpoints require no Authentication.
 
-* [Login](login.md) : `POST /api/login/`
-
-## Endpoints that require Authentication
+## Endpoints with Authentication
 
 Closed endpoints require a valid Token to be included in the header of the
 request. A Token can be acquired from the Login view above.
 
-### Current User related
+### Schedules
 
 Each endpoint manipulates or displays information related to the User whose
 Token is provided with the request:
@@ -32,5 +30,5 @@ has permissions to access.
 * [Update An Account](accounts/pk/put.md) : `PUT /api/accounts/:pk/`
 * [Delete An Account](accounts/pk/delete.md) : `DELETE /api/accounts/:pk/`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1NTA2NzIyMl19
+eyJoaXN0b3J5IjpbMjI2NjgwNDM5LDEyNTUwNjcyMjJdfQ==
 -->
