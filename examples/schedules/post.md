@@ -87,16 +87,6 @@ Api Call တစ်ခုတွင် Exchange Rate, Oil Price, Gold Price အပ
 
 ## Error Responses
 
-**Condition** : If Post Data has incomplete attributes.
-
-**Code** : `402 UNPROCESSABLE ENTITY`
-
-**Headers** : `Location: http://testserver/api/schedules/123/`
-
-**Content** : `{}`
-
-### Or
-
 **Condition** : If fields are missed.
 
 **Code** : `400 BAD REQUEST`
@@ -105,11 +95,11 @@ Api Call တစ်ခုတွင် Exchange Rate, Oil Price, Gold Price အပ
 
 ```json
 {
-    "name": [
+    "gold_price": [
         "This field is required."
     ]
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3NTIyNTgwNV19
+eyJoaXN0b3J5IjpbLTEzNTAwMzUwOTRdfQ==
 -->
