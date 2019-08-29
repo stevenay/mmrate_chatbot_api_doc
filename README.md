@@ -8,8 +8,8 @@ Open endpoints require no Authentication.
 
 ## Endpoints with Authentication
 
-Closed endpoints require a valid Token to be included in the header of the
-request. A Token can be acquired from the Login view above.
+အောက်ပါ Endpoints များကို access ပြုလုပ်ရန်အတွက် Api Key လိုအပ်ပါသည်။ Api Key ကို DigitX မှ ပံပိုးပေးပါမည်။
+
 
 ### Schedules
 
@@ -30,5 +30,5 @@ has permissions to access.
 * [Update An Account](accounts/pk/put.md) : `PUT /api/accounts/:pk/`
 * [Delete An Account](accounts/pk/delete.md) : `DELETE /api/accounts/:pk/`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjI2NjgwNDM5XX0=
+eyJoaXN0b3J5IjpbLTc2Mzg4NTU3MV19
 -->
