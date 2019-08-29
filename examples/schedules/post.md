@@ -81,17 +81,17 @@ Api Call တစ်ခုတွင် Exchange Rate, Oil Price, Gold Price အပ
 {
     "id": 123,
     "name": "Schedule Created",
-    "url": "http://testserver/api/accounts/123/"
+    "url": "http://testserver/api/schedules/123/"
 }
 ```
 
 ## Error Responses
 
-**Condition** : If Account already exists for User.
+**Condition** : If Post Data has incomplete attributes.
 
-**Code** : `303 SEE OTHER`
+**Code** : `402 UNPROCESSABLE ENTITY`
 
-**Headers** : `Location: http://testserver/api/accounts/123/`
+**Headers** : `Location: http://testserver/api/schedules/123/`
 
 **Content** : `{}`
 
@@ -111,5 +111,5 @@ Api Call တစ်ခုတွင် Exchange Rate, Oil Price, Gold Price အပ
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDk3ODkzMDNdfQ==
+eyJoaXN0b3J5IjpbMTg3NTIyNTgwNV19
 -->
