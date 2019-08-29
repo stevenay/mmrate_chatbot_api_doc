@@ -2,11 +2,11 @@
 
 ယခု Api Endpoint မှာ BP MMRate System မှ DigitX Chatbot Platform သို့ ခေါ်ရန် ဖြစ်ပါသည်။
 
-BP MMRate CMS မှ Chatbot Users များသို့ Updated စျေးနှုန်းများ
+Chatbot Users များသို့ Updated စျေးနှုန်းများ ပို့ရန်အတွက် Schedule ပြုလုပ်ခြင်း ဖြစ်ပါသည်။
 
 Api Call တစ်ခုတွင် Exchange Rate, Oil Price, Gold Price အပြည့်အစုံ ပါဝင်ရမည် ဖြစ်ပါသည်။  currency_name, gold_market, oil_shop, oil_type စသည့် String Value များမှာ ကြိုတင် သဘောတူညီထားသော String များသာ ဖြစ်ရပါမည်။
 
-**URL** : `/api/accounts/`
+**URL** : `/api/schedules/`
 
 **Method** : `POST`
 
@@ -74,5 +74,5 @@ Provide name of Account to be created.
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzMjU4ODM0Nl19
+eyJoaXN0b3J5IjpbLTEzOTExMDEwMTFdfQ==
 -->
