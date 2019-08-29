@@ -13,22 +13,9 @@ Open endpoints require no Authentication.
 
 ### Schedules
 
-Each endpoint manipulates or displays information related to the User whose
-Token is provided with the request:
+BP MMRate CMS မှ Exchange Rate, Oil Price, Gold Price စသည့် up-to-date price များကို Chatbot users များသို့ ပေးပို့ရန်အတွက် Schedule လုပ်ခြင်း ဖြစ်ပါသည်။
 
-* [Show info](user/get.md) : `GET /api/user/`
-* [Update info](user/put.md) : `PUT /api/user/`
-
-### Account related
-
-Endpoints for viewing and manipulating the Accounts that the Authenticated User
-has permissions to access.
-
-* [Show Accessible Accounts](accounts/get.md) : `GET /api/accounts/`
-* [Create Account](accounts/post.md) : `POST /api/accounts/`
-* [Show An Account](accounts/pk/get.md) : `GET /api/accounts/:pk/`
-* [Update An Account](accounts/pk/put.md) : `PUT /api/accounts/:pk/`
-* [Delete An Account](accounts/pk/delete.md) : `DELETE /api/accounts/:pk/`
+* [Create New Schedule](schedules/post.md) : `POST /api/schedules/`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2Mzg4NTU3MV19
+eyJoaXN0b3J5IjpbLTc1NjQ4ODczOF19
 -->
