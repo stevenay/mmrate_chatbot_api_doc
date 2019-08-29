@@ -19,7 +19,6 @@ Api Call တစ်ခုတွင် Exchange Rate, Oil Price, Gold Price အပ
 အောက်ပါ အချက်အလက်များကို Json Format ဖြင့် Post Request တွင် ထည့်သွင်းပေးရမည် ဖြစ်ပါသည်။
 
 ```json
-  
 {  
 	"exchange_rate": [  
 		{  
@@ -101,5 +100,5 @@ Api Call တစ်ခုတွင် Exchange Rate, Oil Price, Gold Price အပ
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTAwMzUwOTRdfQ==
+eyJoaXN0b3J5IjpbLTExMTg2NDkxNTZdfQ==
 -->
