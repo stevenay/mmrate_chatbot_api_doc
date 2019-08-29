@@ -1,8 +1,6 @@
 # MMRate + DigitX Api Documentation
 
-These examples were taken from projects mainly using [Django Rest
-Framework](https://github.com/tomchristie/django-rest-framework) and so the
-JSON responses are often similar to the way in which DRF makes responses.
+ယခု Api သည် MMRate CMS နှင့် DigitX Chatbot Platform တိုကြား Integrate ပြုလုပ်ရန် ရည်ရွယ်ထားခြင်း ဖြစ်ပါသည်။
 
 Where full URLs are provided in responses they will be rendered as if service
 is running on 'http://testserver/'.
@@ -37,5 +35,5 @@ has permissions to access.
 * [Update An Account](accounts/pk/put.md) : `PUT /api/accounts/:pk/`
 * [Delete An Account](accounts/pk/delete.md) : `DELETE /api/accounts/:pk/`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2MDgyNDM1NF19
+eyJoaXN0b3J5IjpbMTMxNzg0NTM1Nl19
 -->
