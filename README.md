@@ -1,6 +1,6 @@
 # MMRate + DigitX Api Documentation
 
-ယခု Api သည် MMRate CMS နှင့် DigitX Chatbot Platform တိုကြား Integrate ပြုလုပ်ရန် ရည်ရွယ်ထားခြင်း ဖြစ်ပါသည်။
+ယခု Api သည် MMRate CMS နှင့် DigitX Chatbot Platform တို့ကြား Integrate ပြုလုပ်ရန် ရည်ရွယ်ထားခြင်း ဖြစ်ပါသည်။
 
 ## Open Endpoints
 
@@ -17,5 +17,6 @@ BP MMRate CMS မှ Exchange Rate, Oil Price, Gold Price စသည့် up-to-
 
 * [Create New Schedule](examples/schedules/post.md) : `POST /api/schedules/`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQyMjcyMTY3LDE3MDA1NzE2ODNdfQ==
+eyJoaXN0b3J5IjpbMTc0MTc3NjcxNiwyNDIyNzIxNjcsMTcwMD
+U3MTY4M119
 -->
