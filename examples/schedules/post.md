@@ -16,11 +16,56 @@ Api Call တစ်ခုတွင် Exchange Rate, Oil Price, Gold Price အပ
 
 **Data constraints**
 
-Provide name of Account to be created.
+အောက်ပါ အချက်အလက်များကို Json Format ဖြင့် Post Request တွင် ထည့်သွင်းပေးရမည် ဖြစ်ပါသည်။
 
 ```json
-{
-    "name": "[unicode 64 chars max]"
+  
+{  
+"exchange_rate": [  
+{  
+"currency_name": "USD",  
+"buy_price": 1600,  
+"sale_price": 1650  
+},  
+{  
+"currency_name": "SGD",  
+"buy_price": 1600,  
+"sale_price": 1650  
+}  
+],  
+"gold_price": [  
+{  
+"gold_market": "YGN",  
+"gold_quality": "16(optional)",  
+"gold_price": 11000000  
+},  
+{  
+"gold_market": "MDY",  
+"gold_quality": "16(optional)",  
+"gold_price": 11000000  
+}  
+],  
+"oil_price": [  
+{  
+"oil_shop": "DENKO",  
+"oil_type": "DISEL",  
+"oil_price": 950  
+},  
+{  
+"oil_shop": "DENKO",  
+"oil_type": "OCTANE 95",  
+"oil_price": 960  
+}  
+],  
+"broadcast_information": {  
+"release_time_date": "2019-08-28 19:00:00",  
+"sender": "BP(optional)"  
+},  
+"service_status": {  
+"is_exchange_rate_update": false,  
+"is_gold_price_update": false,  
+"is_oil_price_update": false  
+}  
 }
 ```
 
@@ -74,5 +119,5 @@ Provide name of Account to be created.
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTExMDEwMTFdfQ==
+eyJoaXN0b3J5IjpbMTIwNjYxMDM2M119
 -->
