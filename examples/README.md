@@ -1,4 +1,4 @@
-# RESTAPIDocs Examples
+# MMRate + DigitX Api Documentation
 
 These examples were taken from projects mainly using [Django Rest
 Framework](https://github.com/tomchristie/django-rest-framework) and so the
@@ -36,3 +36,6 @@ has permissions to access.
 * [Show An Account](accounts/pk/get.md) : `GET /api/accounts/:pk/`
 * [Update An Account](accounts/pk/put.md) : `PUT /api/accounts/:pk/`
 * [Delete An Account](accounts/pk/delete.md) : `DELETE /api/accounts/:pk/`
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMTA2MDgyNDM1NF19
+-->
