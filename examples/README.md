@@ -2,10 +2,7 @@
 
 ယခု Api သည် MMRate CMS နှင့် DigitX Chatbot Platform တိုကြား Integrate ပြုလုပ်ရန် ရည်ရွယ်ထားခြင်း ဖြစ်ပါသည်။
 
-Where full URLs are provided in responses they will be rendered as if service
-is running on 'http://testserver/'.
-
-## Open Endpoints
+## Endpoints
 
 Open endpoints require no Authentication.
 
@@ -35,5 +32,5 @@ has permissions to access.
 * [Update An Account](accounts/pk/put.md) : `PUT /api/accounts/:pk/`
 * [Delete An Account](accounts/pk/delete.md) : `DELETE /api/accounts/:pk/`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxNzg0NTM1Nl19
+eyJoaXN0b3J5IjpbMTI1NTA2NzIyMl19
 -->
